@@ -1,12 +1,25 @@
-# WristPlayer
+# WristPlayer WatchOS 7.x
 
 WristPlayer is a basic YouTube application for Apple Watch. Search, play, control and listen to YouTube videos right on your Apple Watch.
 
-Note: An iPhone, while not physically used, is still needed nearby.
+~~Note: An iPhone, while not physically used, is still needed nearby.~~
+
+The intention of this fork is to:
+- Update it to WatchOS 7+
+- Remove dependencies on iOS libraries
+- Remove the iOS app entirely, making it a standalone WatchOS app
+- Add an audio-only option
+- Add preview images, summaries, sign-in, and recommendations
+- Explore streaming options
 
 # Installation
 
  Clone this repostory and install WristPlayer with Xcode
+ 
+ Additionally:
+ - Provide your own Youtube API key
+ - Provide your own youtube-dl server details
+ - Sign the application with your own certificate
  
  # Help
 
